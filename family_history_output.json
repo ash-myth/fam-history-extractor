@@ -1,0 +1,236 @@
+{
+  "family_members": [
+    {
+      "family_member": "father",
+      "side": "paternal",
+      "degree": "first",
+      "living_status": "deceased",
+      "current_age": null,
+      "age_at_death": 62,
+      "cause_of_death": "myocardial infarction",
+      "conditions": [
+        {
+          "condition": "hypertension",
+          "age_at_onset": null,
+          "status": null,
+          "procedures": []
+        },
+        {
+          "condition": "hyperlipidemia",
+          "age_at_onset": null,
+          "status": null,
+          "procedures": []
+        },
+        {
+          "condition": "tobacco use disorder",
+          "age_at_onset": null,
+          "status": null,
+          "procedures": []
+        },
+        {
+          "condition": "Type 2 diabetes",
+          "age_at_onset": "50s",
+          "status": null,
+          "procedures": []
+        }
+      ],
+      "negated_conditions": [],
+      "history_unknown": false
+    },
+    {
+      "family_member": "mother",
+      "side": "maternal",
+      "degree": "first",
+      "living_status": "alive",
+      "current_age": 84,
+      "age_at_death": null,
+      "cause_of_death": null,
+      "conditions": [
+        {
+          "condition": "breast cancer",
+          "age_at_onset": 67,
+          "status": "in remission",
+          "procedures": []
+        },
+        {
+          "condition": "osteoporosis",
+          "age_at_onset": null,
+          "status": null,
+          "procedures": []
+        },
+        {
+          "condition": "hypertension",
+          "age_at_onset": null,
+          "status": null,
+          "procedures": []
+        },
+        {
+          "condition": "mild cognitive impairment",
+          "age_at_onset": null,
+          "status": null,
+          "procedures": []
+        }
+      ],
+      "negated_conditions": [],
+      "history_unknown": false
+    },
+    {
+      "family_member": "brother",
+      "side": "null",
+      "degree": "first",
+      "living_status": "alive",
+      "current_age": 58,
+      "age_at_death": null,
+      "cause_of_death": null,
+      "conditions": [
+        {
+          "condition": "coronary artery disease",
+          "age_at_onset": null,
+          "status": "s/p CABG at 55",
+          "procedures": [
+            "CABG"
+          ]
+        },
+        {
+          "condition": "Type 2 diabetes",
+          "age_at_onset": null,
+          "status": null,
+          "procedures": []
+        },
+        {
+          "condition": "hyperlipidemia",
+          "age_at_onset": null,
+          "status": null,
+          "procedures": []
+        }
+      ],
+      "negated_conditions": [
+        "cancer"
+      ],
+      "history_unknown": false
+    },
+    {
+      "family_member": "sister",
+      "side": "null",
+      "degree": "first",
+      "living_status": "alive",
+      "current_age": 52,
+      "age_at_death": null,
+      "cause_of_death": null,
+      "conditions": [],
+      "negated_conditions": [],
+      "history_unknown": false
+    },
+    {
+      "family_member": "maternal grandmother",
+      "side": "maternal",
+      "degree": "second",
+      "living_status": "deceased",
+      "current_age": null,
+      "age_at_death": 75,
+      "cause_of_death": "stroke",
+      "conditions": [
+        {
+          "condition": "atrial fibrillation",
+          "age_at_onset": null,
+          "status": null,
+          "procedures": []
+        },
+        {
+          "condition": "hypertension",
+          "age_at_onset": null,
+          "status": null,
+          "procedures": []
+        }
+      ],
+      "negated_conditions": [],
+      "history_unknown": false
+    },
+    {
+      "family_member": "maternal grandfather",
+      "side": "maternal",
+      "degree": "second",
+      "living_status": "deceased",
+      "current_age": null,
+      "age_at_death": 80,
+      "cause_of_death": "Alzheimer's disease",
+      "conditions": [
+        {
+          "condition": "Alzheimer's disease",
+          "age_at_onset": null,
+          "status": null,
+          "procedures": []
+        }
+      ],
+      "negated_conditions": [],
+      "history_unknown": false
+    },
+    {
+      "family_member": "paternal grandmother",
+      "side": "paternal",
+      "degree": "second",
+      "living_status": "deceased",
+      "current_age": null,
+      "age_at_death": 88,
+      "cause_of_death": null,
+      "conditions": [
+        {
+          "condition": "colon cancer",
+          "age_at_onset": 60,
+          "status": null,
+          "procedures": []
+        }
+      ],
+      "negated_conditions": [],
+      "history_unknown": false
+    },
+    {
+      "family_member": "paternal grandfather",
+      "side": "paternal",
+      "degree": "second",
+      "living_status": "deceased",
+      "current_age": null,
+      "age_at_death": null,
+      "cause_of_death": null,
+      "conditions": [],
+      "negated_conditions": [],
+      "history_unknown": true
+    },
+    {
+      "family_member": "son",
+      "side": "null",
+      "degree": "first",
+      "living_status": "alive",
+      "current_age": 28,
+      "age_at_death": null,
+      "cause_of_death": null,
+      "conditions": [],
+      "negated_conditions": [],
+      "history_unknown": false
+    },
+    {
+      "family_member": "daughter",
+      "side": "null",
+      "degree": "first",
+      "living_status": "alive",
+      "current_age": 25,
+      "age_at_death": null,
+      "cause_of_death": null,
+      "conditions": [],
+      "negated_conditions": [],
+      "history_unknown": false
+    }
+  ],
+  "risk_summary": {
+    "cardiovascular_risk": "HIGH \u2014 Father died of MI at 62, brother had CABG at 55, maternal grandmother had stroke at 75",
+    "diabetes_risk": "HIGH \u2014 Father had Type 2 diabetes, brother has Type 2 diabetes",
+    "cancer_risk": "MODERATE \u2014 Mother had breast cancer, paternal grandmother had colon cancer",
+    "neurodegenerative_risk": "MODERATE \u2014 Maternal grandfather had Alzheimer's disease, mother has mild cognitive impairment",
+    "other_risks": null,
+    "negated_risks": [
+      "genetic disorders",
+      "sickle cell disease",
+      "hemophilia"
+    ]
+  }
+}
